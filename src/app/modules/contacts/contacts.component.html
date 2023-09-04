@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="header background-image">
+  </div>
+  <div class="list">
+    <app-card-contact [contactListData]="this.contactListData" (editContact)="editContact($event)">
+    </app-card-contact>
+  </div>
+  <div class="overlay-div">
+    <app-filter-contacts (searchEmail)="searchEmail($event)" (searchName)="searchName($event)"
+      (searchPhone)="searchPhone($event)" (searchAllContacts)="searchAllContacts()">
+    </app-filter-contacts>
+  </div>
+</div>

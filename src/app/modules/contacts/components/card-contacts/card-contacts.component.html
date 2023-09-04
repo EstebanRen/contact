@@ -1,0 +1,25 @@
+<div *ngFor="let contact of contactListData">
+    <div class="card" [matMenuTriggerFor]="lists" (click)="onClickSelectedContact(contact)">
+        <div class="card-image">
+            <img [src]="'assets/images/user.svg'" alt="Image" />
+        </div>
+        <div class="card-details">
+            <div class="name">
+                Nombre :
+                <span class="tag new">{{ contact.name }} !</span>
+                <span class="tag featured">{{ this.calculateAge(contact.birthdate) }} Años !</span>
+            </div>
+            <div class="title">Fecha de nacimiento : {{ contact.birthdate }}</div>
+            <div class="text">
+                Direccion: {{ contact.address }} &nbsp;&bull;&nbsp; Correo:
+                {{ contact.email }}
+            </div>
+        </div>
+        <div class="card-buttons">
+            <span class="role"> Número de Teléfono : {{ contact.phone }}</span>
+        </div>
+    </div>
+</div>
+<mat-menu #lists="matMenu">
+    <button mat-menu-item (click)="onClickEditContact()">Editar Contacto</button>
+</mat-menu>

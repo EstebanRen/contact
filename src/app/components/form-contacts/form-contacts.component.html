@@ -1,0 +1,40 @@
+<div class="pop-up-info">
+    <h2 >
+        Editar  Contacto
+    </h2>
+    <form [formGroup]="Form" #f="ngForm" class="content-form">
+        <div class="form-teams">
+            <mat-form-field fxFlex.gt-sm="50" fxFlex="100" appearance="outline" class="no-padding">
+                <mat-label>Nombre</mat-label>
+                <input class="input-text" autocomplete="off" appOnlyText minlength="3" maxlength="100" matInput
+                    type="text" name="name-contact" formControlName="name" placeholder="" />
+            </mat-form-field>
+
+            <mat-form-field fxFlex.gt-sm="50" fxFlex="100" appearance="outline" class="no-padding">
+                <mat-label>Teléfono</mat-label>
+                <input class="input-text" autocomplete="off" appOnlyText minlength="3" maxlength="100" matInput
+                    type="number" name="phone-contact" formControlName="phone" placeholder="" />
+            </mat-form-field>
+
+            <mat-form-field fxFlex.gt-sm="50" fxFlex="100" appearance="outline" class="no-padding">
+                <mat-label>Fecha de nacimiento</mat-label>
+                <input class="input-text" autocomplete="off" appOnlyText minlength="3" maxlength="100" matInput 
+                type="date" name="birthdate-contact" formControlName="birthdate" placeholder="" />
+            </mat-form-field>
+
+            <mat-form-field fxFlex.gt-sm="50" fxFlex="100" appearance="outline" class="no-padding">
+                <mat-label>Direccíon</mat-label>
+                <input class="input-text" autocomplete="off" appOnlyText minlength="3" maxlength="100" matInput
+                    type="url" name="address-contact" formControlName="address" placeholder="" />
+            </mat-form-field>
+
+            <mat-form-field fxFlex.gt-sm="50" fxFlex="100" appearance="outline" class="no-padding">
+                <mat-label>Correo electrónico</mat-label>
+                <input class="input-text" autocomplete="off" appOnlyText minlength="3" maxlength="100" matInput
+                    type="text" name="email-contact" formControlName="email" placeholder="" />
+            </mat-form-field>
+        </div>
+    </form>
+    <button mat-raised-button color="primary" type="button" (click)="onClickEditateContact()" >Editar Contacto</button>
+
+</div>

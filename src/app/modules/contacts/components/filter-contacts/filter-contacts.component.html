@@ -1,0 +1,31 @@
+<div class="filter-summary">
+    <div class="filters">
+        <form [formGroup]="searchForm">
+            <span class="filter">
+                <mat-form-field fxFlex="50" appearance="fill">
+                    <mat-label>Buscar por Nombre</mat-label>
+                    <input class="input-text" autocomplete="off" matInput type="text" name="name-contact"
+                        formControlName="name" placeholder="" />
+                </mat-form-field>
+                <button class="filter-remove" (click)="onClickSearchName()"><mat-icon>search</mat-icon></button>
+            </span> <span class="filter">
+                <mat-form-field fxFlex="50" appearance="fill">
+                    <mat-label>Buscar por Teléfono</mat-label>
+                    <input class="input-text" autocomplete="off" matInput type="number" name="phone-contact"
+                        formControlName="phone" placeholder=""  />
+                </mat-form-field>
+                <button class="filter-remove" (click)="onClickSearchPhone()"><mat-icon>search</mat-icon></button>
+            </span> <span class="filter">
+                <mat-form-field fxFlex="50" appearance="fill">
+                    <mat-label>Buscar por Correo</mat-label>
+                    <input class="input-text" autocomplete="off" matInput type="text" name="email-contact"
+                        formControlName="email" placeholder=""  />
+                </mat-form-field>
+                <button class="filter-remove" (click)="onClickSearchEmail()"><mat-icon>search</mat-icon></button>
+            </span>
+        </form>
+    </div>
+    <div class="clear-button">
+        <button class="filter-clear" (click)="onClickClearFilters();">Limpiar Filtros</button>
+    </div>
+</div>

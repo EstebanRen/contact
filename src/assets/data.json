@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "phone": 1234567890,
+      "birthdate": "15/03/1990",
+      "address": "Calle Principal #123",
+      "email": "juan@example.com"
+    },
+    {
+      "id": 2,
+      "name": "María García",
+      "phone": 9876543210,
+      "birthdate": "25/06/1985",
+      "address": "Avenida Secundaria #456",
+      "email": "maria@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Pedro Rodriguez",
+      "phone": 5555555555,
+      "birthdate": "10/12/1995",
+      "address": "Plaza Central #789",
+      "email": "pedro@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Luisa Martínez",
+      "phone": 7777777777,
+      "birthdate": "05/09/1982",
+      "address": "Callejón Tranquilo #101",
+      "email": "luisa@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Carlos Sánchez",
+      "phone": 3333333333,
+      "birthdate": "20/11/1978",
+      "address": "Calle de la Paz #222",
+      "email": "carlos@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Ana López",
+      "phone": 4444444444,
+      "birthdate": "18/07/1993",
+      "address": "Calle del Sol #333",
+      "email": "ana@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Miguel González",
+      "phone": 6666666666,
+      "birthdate": "03/04/1980",
+      "address": "Avenida Principal #555",
+      "email": "miguel@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Laura Torres",
+      "phone": 2222222222,
+      "birthdate": "22/01/1998",
+      "address": "Calle del Arte #777",
+      "email": "laura@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Sara Ramírez",
+      "phone": 9999999999,
+      "birthdate": "08/10/1991",
+      "address": "Calle del Deporte #888",
+      "email": "sara@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Ricardo Fernández",
+      "phone": 1111111111,
+      "birthdate": "14/02/1975",
+      "address": "Avenida Cultural #999",
+      "email": "ricardo@example.com"
+    }
+  ]
+  
